@@ -50,8 +50,8 @@ public class ByteBufferDemo {
     }
 
     private static void printMetrics(ByteBuffer buffer) {
-        System.out.printf("capacity = %4d, position = %4d, limit = %4d%n",
-                buffer.capacity(), buffer.position(), buffer.limit());
+        System.out.printf("position = %4d, limit = %4d, capacity = %4d%n",
+                buffer.position(), buffer.limit(), buffer.capacity());
     }
 
 }
